@@ -4,6 +4,11 @@ class Vivify < Formula
   version "0.5.1"
   license "GPL-3.0"
 
+  depends_on "libuv"
+  depends_on "brotli"
+  depends_on "c-ares"
+  depends_on "icu4c"
+
   on_macos do
     url "https://github.com/jannis-baum/Vivify/releases/download/v#{version}/vivify-macos.tar.gz"
     sha256 "434c04271bb90a7ddae84258c254bcdbb5ee0c7dcb6ea3cdac5c7602a14439a0"
