@@ -1,7 +1,7 @@
 class Vivify < Formula
   desc "Bring your Markdown to life"
   homepage "https://github.com/jannis-baum/Vivify"
-  version "0.8.0"
+  version "0.8.1"
   license "GPL-3.0"
 
   # node dependencies, see https://formulae.brew.sh/formula/node
@@ -14,12 +14,12 @@ class Vivify < Formula
 
   on_macos do
     url "https://github.com/jannis-baum/Vivify/releases/download/v#{version}/vivify-macos.tar.gz"
-    sha256 "58258904808fecddea112b51da0ce1d774e4252ca4752c3767be8f2e5dd7d34d"
+    sha256 "a4e057804627574ffeea1f235537d178950441ab53f669206d89e16126570069"
   end
 
   on_linux do
     url "https://github.com/jannis-baum/Vivify/releases/download/v#{version}/vivify-linux.tar.gz"
-    sha256 "4c7ff4f1d6dee80bb87242b58ed4302a4b5ef5feb61dce9f80e84127a21377d0"
+    sha256 "cf5daefbcfd9faca7ef9e42f6a70fce4f41f99f1e613dd8dea5913a83018f7b3"
   end
 
   def install
