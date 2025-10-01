@@ -1,7 +1,7 @@
 class Vivify < Formula
   desc "Bring your Markdown to life"
   homepage "https://github.com/jannis-baum/Vivify"
-  version "0.10.0"
+  version "0.10.0-1"
   license "GPL-3.0"
 
   # dependencies are from node, see https://formulae.brew.sh/formula/node
@@ -20,6 +20,7 @@ class Vivify < Formula
       depends_on "sqlite"
       depends_on "uvwasi"
       depends_on "zstd"
+      depends_on "simdutf"
       url "https://github.com/jannis-baum/Vivify/releases/download/v#{version}/vivify-macos-arm.tar.gz"
       sha256 "69c6f2c51568db7bd658ef23974fca969601b7d793d917a246d9256fa8a7c192"
     end
