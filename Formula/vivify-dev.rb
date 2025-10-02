@@ -12,7 +12,7 @@ class VivifyDev < Formula
 
   def install
     system "yarn"
-    system "./configure", prefix
+    system "./configure", "#{prefix}/bin"
     system "make", "install"
   end
 end
