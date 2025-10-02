@@ -11,6 +11,7 @@ class VivifyDev < Formula
   sha256 "3d9ad60cbd30d2dd85726ea9bac9c62987e4477c38355de44bf0e21830bfdb6d"
 
   def install
+    system "yarn"
     system "./configure", prefix
     system "make", "install"
   end
